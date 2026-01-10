@@ -27,10 +27,11 @@ const myProjects = [
 const mySkills = [
     { name: "React", icon: Code2},
     { name: "Redux", icon: Layers},
-    { name: "Java", icon: Cpu},
+    { name: "Java EE", icon: Cpu},
     { name: "JavaScript", icon: Cpu,},
     { name: "Node.js", icon: Database},
-    { name: "CSS/SASS", icon: Palette },
+    { name: "PostgreSQL", icon: Database },
+    { name: "CSS", icon: Palette },
     { name: "Git", icon: Globe },
 ];
 

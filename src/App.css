@@ -109,3 +109,15 @@
     color: #a0a0a0;
     letter-spacing: 1px;
 }
+.about-description {
+    max-width: 600px;
+    margin: 1.5rem auto;
+    line-height: 1.6;
+    color: #a0a0a0;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: #c8aa6e; /* League Gold */
+    font-weight: bold;
+}
