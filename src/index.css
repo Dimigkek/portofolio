@@ -1,0 +1,14 @@
+:root {
+    --bg-dark: #010a13;
+    --gold: #c8aa6e;
+    --text-primary: #f0e6d2;
+    --glass: rgba(255, 255, 255, 0.03);
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
