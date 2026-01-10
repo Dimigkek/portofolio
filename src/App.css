@@ -121,3 +121,75 @@
     color: #c8aa6e; /* League Gold */
     font-weight: bold;
 }
+/* Container spacing */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* This adds massive 'air' between the 4 main blocks */
+    padding: 80px 20px;
+}
+
+.description-container {
+    max-width: 700px;
+    line-height: 1.8;
+    color: #a0a0a0;
+}
+
+/* Action Area (CV Button) */
+.action-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.cv-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid #c8aa6e; /* Gold border */
+    color: #c8aa6e;
+    border-radius: 8px;
+    text-decoration: none !important; /* Removes blue underline */
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cv-button:hover {
+    background: rgba(200, 170, 110, 0.1);
+    transform: translateY(-3px);
+}
+
+/* Social Section */
+.social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-label {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.social-links {
+    display: flex;
+    gap: 35px; /* Spacing between icons */
+}
+
+.social-links a {
+    color: #f0e6d2;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #c8aa6e;
+    transform: scale(1.2);
+}

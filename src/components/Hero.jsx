@@ -19,31 +19,20 @@ export default function Hero() {
                     While my core expertise is in robust backend systems and RESTful APIs, I take the initiative to build modern <strong>React interfaces</strong> to deliver seamless, full-stack excellence.
                 </p>
 
-                <div className="cv-container">
-                    <p className="cv-text">Interested in my professional journey?</p>
-                    <a
-                        href="/Dimitrios Gkekas Java Developer CV.pdf"
-                        download
-                        className="cv-download-btn"
-                    >
+                <div className="action-area">
+                    <p className="cta-text">Interested in my professional journey?</p>
+                    <a href="/Dimitrios Gkekas Java Developer CV.pdf" download className="cv-button">
                         <FileText size={20} />
                         Download My CV
                     </a>
                 </div>
-
-                <div className="social-divider">
-                    <span>Let's Connect :</span>
-                </div>
-                <div className="social-links">
-                    <a href="https://github.com/Dimigkek" target="_blank" rel="noreferrer" className="social-icon">
-                        <Github size={30} />
-                    </a>
-                    <a href="https://www.linkedin.com/in/dimitris-gkekas-69a47b1b5/" target="_blank" rel="noreferrer" className="social-icon">
-                        <Linkedin size={30} />
-                    </a>
-                    <a href="mailto:dimigkek@gmail.com" className="social-icon">
-                        <Mail size={30} />
-                    </a>
+                <div className="social-section">
+                    <span className="social-label">Let's Connect</span>
+                    <div className="social-links">
+                        <a href="https://github.com/Dimigkek" target="_blank" rel="noreferrer"><Github size={28} /></a>
+                        <a href="https://www.linkedin.com/in/dimitris-gkekas-69a47b1b5/" target="_blank" rel="noreferrer"><Linkedin size={28} /></a>
+                        <a href="mailto:dimigkek@gmail.com"><Mail size={28} /></a>
+                    </div>
                 </div>
             </motion.div>
         </section>
