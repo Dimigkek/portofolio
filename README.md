@@ -2,4 +2,4 @@
 
 A personal Portofolio in React + Vite 😊
 
-https://github.com/Dimigkek/portofolio
+https://portofolio-dusky-ten-49.vercel.app/
