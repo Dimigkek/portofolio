@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import ProjectCard from "./components/ProjectCard";
 import lolIcon from "./assets/lol.ico";
+import toDoIcon from "./assets/todo.png";
 import { Code2, Layers, Cpu, Globe, Database, Palette } from "lucide-react";
 import SkillCard from "./components/SkillCard";
 import JavaIcon from "./assets/Java.png";
