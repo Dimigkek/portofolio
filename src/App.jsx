@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import ProjectCard from "./components/ProjectCard";
 import lolIcon from "./assets/lol.ico";
+import toDoIcon from "./assets/todo.png";
 import { Code2, Layers, Cpu, Globe, Database, Palette } from "lucide-react";
 import SkillCard from "./components/SkillCard";
 import JavaIcon from "./assets/Java.png";
@@ -22,7 +23,15 @@ const myProjects = [
         github: "https://github.com/Dimigkek/Project",
         link: null,
         image: JavaIcon
-    }
+    },
+    {
+        title: "LoL Champion Guessing Game",
+        description: "A Wordle-inspired game for League of Legends. Features Redux for high-score persistence and complex game logic.",
+        tags: ["React", "Redux", "JavaScript", "CSS3"],
+        github: "https://github.com/Dimigkek/calendar-todolist",
+        link: "https://calendar-todolist-y1v7xevbf-dimigkeks-projects.vercel.app/",
+        image: toDoIcon
+    },
 ];
 const mySkills = [
     { name: "React", icon: Code2},
