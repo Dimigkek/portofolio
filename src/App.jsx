@@ -25,9 +25,9 @@ const myProjects = [
         image: JavaIcon
     },
     {
-        title: "Calendar To-Do List",
-        description: "Calendar To-Do List is a simple React application that allows you to create and manage your daily tasks.",
-        tags: ["React", "Tailwind", "JavaScript", "Framer Motion"],
+        title: "LoL Champion Guessing Game",
+        description: "A Wordle-inspired game for League of Legends. Features Redux for high-score persistence and complex game logic.",
+        tags: ["React", "Redux", "JavaScript", "CSS3"],
         github: "https://github.com/Dimigkek/calendar-todolist",
         link: "https://calendar-todolist-y1v7xevbf-dimigkeks-projects.vercel.app/",
         image: toDoIcon
