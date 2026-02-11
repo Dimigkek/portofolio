@@ -25,7 +25,7 @@ const myProjects = [
         image: JavaIcon
     },
     {
-        title: "LoL Champion Guessing Game",
+        title: "Todo-List App",
         description: "A Wordle-inspired game for League of Legends. Features Redux for high-score persistence and complex game logic.",
         tags: ["React", "Redux", "JavaScript", "CSS3"],
         github: "https://github.com/Dimigkek/calendar-todolist",
