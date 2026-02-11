@@ -36,7 +36,7 @@ const myProjects = [
         title: "User App Backend",
         description: "This is the core REST API for the User Management application, built with Spring Boot 4.0.2 and Java 21/23",
         tags: ["SpringBoot", "Java"],
-        github: "https://github.com/Dimigkek/calendar-todolist",
+        github: "https://github.com/Dimigkek/userapp",
         link: null,
         image: JavaIcon
     },
