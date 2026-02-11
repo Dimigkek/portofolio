@@ -26,11 +26,19 @@ const myProjects = [
     },
     {
         title: "Todo-List App",
-        description: "A Wordle-inspired game for League of Legends. Features Redux for high-score persistence and complex game logic.",
+        description: "A sleek, modern planning experience built with React, Tailwind CSS, and Framer Motion. This application allows users to manage their daily tasks with an integrated calendar and secure authentication.",
         tags: ["React", "Redux", "JavaScript", "CSS3"],
         github: "https://github.com/Dimigkek/calendar-todolist",
         link: "https://calendar-todolist-y1v7xevbf-dimigkeks-projects.vercel.app/",
         image: toDoIcon
+    },
+    {
+        title: "User App Backend",
+        description: "This is the core REST API for the User Management application, built with Spring Boot 4.0.2 and Java 21/23",
+        tags: ["SpringBoot", "Java"],
+        github: "https://github.com/Dimigkek/calendar-todolist",
+        link: null,
+        image: JavaIcon
     },
 ];
 const mySkills = [
