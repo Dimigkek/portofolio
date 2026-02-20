@@ -46,7 +46,7 @@ const mySkills = [
     { name: "Redux", icon: Layers},
     { name: "Java EE", icon: Cpu},
     { name: "JavaScript", icon: Cpu,},
-    { name: "Node.js", icon: Database},
+    { name: "SpringBoot", icon: Cpu},
     { name: "PostgreSQL", icon: Database },
     { name: "CSS", icon: Palette },
     { name: "Git", icon: Globe },
