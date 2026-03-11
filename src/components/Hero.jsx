@@ -21,7 +21,7 @@ export default function Hero() {
 
                 <div className="action-area">
                     <p className="cta-text">Interested in my professional journey?</p>
-                    <a href="/Dimitrios Gkekas Java Developer CV.pdf" download className="cv-button">
+                    <a href="/Gkekas_Dimitrios_CV.pdf" download className="cv-button">
                         <FileText size={20} />
                         Download My CV
                     </a>
