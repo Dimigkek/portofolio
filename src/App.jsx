@@ -29,7 +29,7 @@ const myProjects = [
         description: "A sleek, modern planning experience built with React, Tailwind CSS, and Framer Motion. This application allows users to manage their daily tasks with an integrated calendar and secure authentication.",
         tags: ["React", "Redux", "JavaScript", "CSS3"],
         github: "https://github.com/Dimigkek/calendar-todolist",
-        link: "https://portofolio-dusky-ten-49.vercel.app/",
+        link: "https://calendar-todolist-eight.vercel.app/",
         image: toDoIcon
     },
     {
